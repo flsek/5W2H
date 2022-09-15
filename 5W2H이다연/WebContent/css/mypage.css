@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* 마이페이지 */
+.mypage-section{
+	width: 1000px;
+	margin:auto;
+	margin-left:350px;
+	height:60%;
+	display:flex;
+	margin-bottom:10px;
+	}
+
+.mypage-section > .mypage-list-section{
+	margin: 0px;
+}
+
+.mypage-list-section{
+	margin-top:5%;
+	flex: 3;
+	height:40%;
+	text-align:center;
+	border: 1px solid rgba(255,127,80,0.6); 
+}
+
+.mypage-list-section > a{
+	color: black;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.mypage-list-section > a:hover{
+	background-color:rgba(255, 150, 0,0.6);
+	color:white;
+	}
+		
+.mypage-main-section {
+	 flex:10;
+	 display: flex;
+	 width: 1500px;
+	 height: 60%;
+	 margin: 10%;
+	 margin-top:5%;
+	 text-align: center;
+}
+.mypage-side-section{
+	 background-color: rgba(236,106,247,0.3);
+	 height: 246px;
+}
+
+.mypage-section{
+ 	margin: auto;
+}
+/* 업데이트 */
+.update-title-text{
+	 color: lightgray;
+	 font-size: 28;
+	 font-weight: bold;
+	 margin-top: 10px;
+ }
+ 
+.update-update-button, .update-fail-button{
+	 width: 100px;
+	 height: 30px;
+	 background-color: white;
+	 border: solid 1px;
+ }
+ 
+.update-update-button:hover, .update-fail-button:hover {
+ 	background-color:rgba(255, 150, 0,0.8);
+ 	color:white;
+ }
+ 
+ .update-update-button{
+ 	margin-top: 15px;
+ 	}
+ 	
+ .update-change-button{
+ 	margin-left:17px;
+ 	}
+ 	
+ .update-user-id{
+ 	margin-left:15px;
+ 	margin-top:22px;
+ 	color:gray;
+ 	}
+ 	
+label{
+	display:inline-block; 
+	width:100px;
+	height: 50px;
+	text-align: left;
+	font-size: 13px;
+	}
+	
+input{
+		border: none;
+		border-bottom-style:solid;
+		width: 300px;
+	}
+	
+form{
+		width:500px;
+		margin: 50px;
+		height: 315px;
+		}
+	
+.right{
+	text-align: right;
+}
+
+.logo{
+	 text-align: center;
+	 height: 100%;
+	 color: rgb(255, 150, 0);
+	 font-size: 25px;
+	 padding-left: 1%;
+	
+ }
+ .logo:hover{
+ 	color: rgb(255,127,80);
+ }
+ 
+ /*로그인, 회원가입등 적힌 공간*/
+ .login{
+ 	 margin-left: 61%;
+	 flex: 4;
+	 height: 100%;
+	 
+ }
+ 
+ /*로그인 회원가입 등 각각의 버튼*/
+ .lo, .Re, .page{
+	 padding: 5px;
+	 text-decoration: none;
+	 color:black;
+	 text-align: center;
+	 margin-left: 15px;
+	 border-bottom: solid 1px black;
+ }
+ .lo:hover, .Re:hover, .page:hover{
+ color: rgb(255,127,80);
+ border-bottom: solid 1px rgb(255,127,80);
+ text-decoration:none;
+ }
+
+.fs12{
+ font-size: 12px;
+}
+.fs15{
+ font-size: 0.9375rem;
+}
+.fw300{
+ font-weight: 300;
+}
+.fw500{
+ font-weight: 500;
+}
+.psize{
+	font-size: 48px;
+	font-family: 'Bell MT';
+}}

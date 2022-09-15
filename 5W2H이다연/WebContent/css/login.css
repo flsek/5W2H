@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 화면 이름 */
+ #main{
+ 	height: 1020px;
+ 	width: 972px;
+ }
+ #main_box{
+ 	padding-top: 25%;
+ 	padding-bottom: 25%;
+ }
+ #h_N{
+ 	position: relative; top: -50px; right: 7%;
+ 	width: 115%;
+ }
+ #loginBox{/* 1296 */
+ 	margin: auto;
+ 	width: 972px;
+ 	height: 464px;
+ 	outline : solid 1px gray;
+ 	position: relative; top: -25px;
+ }
+ #loginBox_in{
+ 	width: 730px;
+ 	height: 370px;
+ 	/* outline : solid 1.5px gray; */
+ 	position: relative; left: 121px; top: 45.5px;
+ }
+ #Box_Name{
+ 	width: 180px;
+ 	color: rgb(255,127,80);
+ 	font-size: 36px;
+ 	text-align: center;
+ 	position: relative; left: 275px;
+ }
+ /* input */
+ .inputInfo{
+ 	width: 300px;
+ 	height: 40px;
+ 	position: relative; top: 20px;
+ 	font-size: 12px;
+ 	position: relative; left: 170px;
+ }
+ #inputPwd{
+ 	position: relative; top: 30px;
+ }
+ /* 버튼 */
+  .btn_box1{
+ 	color: gray;
+ 	font-size: 10px;
+ 	position: relative; left: 170px;
+ }
+ #signUp{
+ 	position: relative; left: 310px;
+ }
+ .btn_box2{
+ 	background-color: rgb(255,127,80);
+ 	border: rgb(255,127,80);
+ 	height: 90px;
+ 	width: 90px;
+ 	color: white;
+ 	position: relative; left: 315px; top: -60px;
+ }
+ #kko_btn{
+ 	background-color: rgb(255,255,115);
+ 	border: rgb(255,255,115);
+ 	height: 35px;
+ 	width: 300px;
+ 	color: rgb(255,127,80);
+ 	font-weight: bold;
+ 	position: relative; left: -92px; top: 40px;
+ }

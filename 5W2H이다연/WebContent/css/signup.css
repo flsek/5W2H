@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* body */
+ #loginBox{      /* 1296 외곽 */
+    margin: auto;
+    width: 972px;
+    height: 1050px;
+    /* outline : solid 1px gray; */
+    position: relative; top: -50px;
+ }
+ #loginBox_in{   /* 중간 */
+    width: 972px;
+    height: 1050px;
+    outline : solid 0.5px gray;
+    position: relative; top: 35px;
+ }
+ #Box{   /* SIGN UP 박스만 */
+    width: 180px;
+    color: rgb(255,127,80);
+    font-size: 36px;
+    text-align: center;
+    position: relative; left: 396px; top: 10px;    /* 140 */
+ }
+ .Box_Name1{   /* 필수 입력 */
+    font-size: 10px;
+    color: gray;
+    position: relative; left: 729px; /* 수정예정 54*/
+ }
+ .Box_Name{         /* input_name 전부 */
+    font-size: 14px;
+    position: relative; left: 256px; top: -2px;
+ }
+ #B_Nick{      /* 닉네임 전부  */
+    position: relative; top: 30px;
+ }
+ #B_Pwd{   /* 비밀번호 전부 */
+    position: relative; top: 60px;
+ }
+  #B_Pwd2{   /* 비밀번호 재확인 박스 전부 */
+    position: relative; top: 20px;
+ }
+ #B_Name{      /* 이름 전부 */
+    position: relative; top: 115px;
+ }
+ #B_Phone{         /* 휴대폰번호 전부 */
+    position: relative; top: 150px;
+ }
+ #input_ck_Phone {   /* 인증번호 박스만 */
+    width: 180px;
+    position: relative; top: 10px;
+ }
+ #B_Email{   /* 이메일 전부 */
+    position: relative; top: 170px;
+ }
+ #personal_Info{   /* 개인정보수집 텍스트 */
+    width: 460px;
+    position: relative; top: 220px; left: 256px;
+ }
+ .Box_ck{   /* 체크박스 */
+    position: relative; top: 88px; left: 256px;
+ }
+ #ck_btn{
+    position: relative; top: -10px;
+ }
+ 
+ #ck_Name{   /* 개인정보 수집 */
+    color: rgb(255,127,80);
+    font-weight: bold;
+    position: relative; top: -10px;
+ }
+ /* 입력칸 all */
+ .input_Box{
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
+    position: relative; left: 256px;   /* 400 */
+ }
+ .input_Box::placeholder{
+    font-size: 12px;
+    position: relative; top: -5px;
+ }
+ 
+ /* 버튼 */
+ .btn_box1{   /* 회원가입 */
+    background-color: rgb(255,127,80);
+    border: rgb(255,127,80);
+    height: 45px;
+    width: 90px;
+    color: white;
+    position: relative; top: 175px; left: -38px;
+ }
+ .btn_box2{   /* 중복확인 */
+    background-color: rgb(255,127,80);
+    border: rgb(255,127,80);
+    height: 40px;
+    width: 90px;   /* 100 */
+    color: white;
+    font-size: 12px;
+    position: relative; top: -6px; left: 270px;
+ }
+ 
+ .btn_box3{   /* 인증번호 받기 */
+    background-color: rgb(255,127,80);
+    border: rgb(255,127,80);
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    position: relative; left: 270px; top: 5px;
+ }
+ .warning{   /* 이름 비밀번호 경고*/
+  font-size: 12px;
+  position: relative; top: 23px; left: -50px;
+  color: red;
+ }
+ 
+  .warning1{   /* 아이디 닉네임 경고 */
+  font-size: 12px;
+  position: relative; top: 23px; left: -145px;
+  color: red;
+ }

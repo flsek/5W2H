@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+
+/* ------------------- 메인 상단 --------------------- */
+ .main{
+ 	width: 100%;
+ 	height: 100%;
+/*  	outline : solid 2px gray; */
+ 	position: relative;
+ }
+ .under{
+ 	height: 50px;
+ }
+ .gray1{
+	margin: auto;
+ 	width: 972px;
+/*  	outline : solid 2px gray; */
+ 	position: relative;
+ 	
+ }
+ .gray2{
+	margin: auto;
+ 	width: 972px;
+/*  	outline : solid 2px gray; */
+ 	position: relative;
+ 	margin-bottom: 20px;
+ }
+ .orange1_1{
+ 	margin-top:10px;
+ 	width: 100%;
+ 	height: 100px;
+/*  	outline : solid 1px orange; */
+ 	position: relative;
+ }
+ 
+  .orange1_2{
+ 	width: 100%;
+ 	height: 50px;
+/*  	outline : solid 1px orange; */
+ 	position: relative;
+ }
+ 
+ 
+ #My_bname{
+ font-family: 'Bell MT';
+  color: rgba(255,127,80, 0.7);
+ 	width: 450px;
+ 	font-size: 48px;
+ 	position: relative;
+	
+ }
+ .green1 {
+ 	margin: auto;
+ 	width: 100%;
+/* 	outline : solid 1px green; */
+ 	position: relative;
+ 	
+ }
+ .gray1_1{
+ 	width: 100%;
+ 	height: 170px;
+/* 	outline : solid 2px gray; */
+ 	position: relative;
+ }
+ 
+ .A_ck{
+ 	width: 15px;
+	height: 15px;
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	left: 1.5%;
+}
+
+ .D_ck{
+	position: relative;
+	left: 83%;
+	font-weight: bold;
+	background-color: rgb(255,127,80);
+	border-color: rgb(255,127,80);
+}
+
+.hr1{
+	background-color: rgba(255,127,80, 0.7);
+	border: none;
+	position: relative;
+	top: -15%;
+	margin: 0px;
+}
+/* ------------------- 리스트 --------------- */
+
+ .gray1_2{
+ 	width: 972px;
+ 	height: 300px;
+/* 	outline : solid 2px gray; */
+ 	position: relative;
+ }
+ .orange2_1{
+ 	width: 75px;
+ 	height: 300px;
+/*   	outline : solid 2px orange; */
+ 	position: absolute;
+ 	text-align: center;
+	
+ }
+  .orange2_2{
+ 	width: 300px;
+ 	height: 280px;
+/*   	outline : solid 2px orange; */
+ 	position: absolute;
+ 	left:75px;
+ 	margin-bottom: 10px;
+ }
+  .orange2_3{
+ 	width: 587px;
+ 	height: 300px;
+/*   	outline : solid 2px orange; */
+ 	position: absolute; left: 375px;
+ }
+
+ .L_ck{
+ 	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	position: relative;
+	top: 142.5px;
+}
+ .img{
+	float:center;
+	position: relative;
+ }
+
+ .green2{
+	position: relative;
+	height: 50px;
+/* 	outline : solid 1px green; */
+c}
+
+ .list_m{
+	width: 100%;
+	height: 100%;
+	text-decoration:none;
+	text-align: right;
+ }
+
+ .hr2{
+	background-color: rgba(255,127,80, 0.7);
+	border: none;
+	height: 1.5px;
+	width: 557px;
+	position: relative;
+	top: 40px; left: 30px;
+ }
+ #address{
+	font-size: 16px;
+	display:inline;
+	position: relative;
+	left: 30px; top: 15px;
+ }
+ #tel{
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	display:inline;
+ 	color:gray;
+ 	position: relative;
+	left: 30px; top: 15px;
+ }
+#content{
+	font-size: 18px;
+	display:inline;
+	position: relative;
+	left: 30px; top: 15px;
+}
+ #name1{
+ 	font-size: 28px;
+ 	color: rgb(255,127,80);
+ 	font-weight: bold;
+	display:inline;
+	position: relative;
+	left: 30px; top: -5px;
+ }
+ #name2{
+ 	font-size: 14px;
+ 	color: gray;
+ 	font-weight: bold;
+	display:inline;
+	position: relative;
+	left: 350px; top: 50px;
+ }
+ 
+.window_up{ 
+    position: fixed; right: 4%; bottom: 12%;
+ }

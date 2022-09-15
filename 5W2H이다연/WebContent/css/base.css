@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.logo{
+    text-align: center;
+    height: 100%;
+    color: rgb(255, 150, 0);
+    font-size: 25px;
+    padding-left: 1%;
+   
+ }
+ .logo:hover{
+    color: rgb(255,127,80);
+ }
+ 
+ /*로그인, 회원가입등 적힌 공간*/
+ .login{
+     margin-left: 61%;
+    flex: 4;
+    height: 100%;
+ }
+ /*로그인 회원가입 등 각각의 버튼*/
+ .lo, .Re, .page{
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    margin-left: 15px;
+    border-bottom: solid 1px black;
+ }
+ .lo:hover, .Re:hover, .page:hover{
+ color: rgb(255,127,80);
+ border-bottom: solid 1px rgb(255,127,80);
+ text-decoration:none;
+ }
+ 
+ #hd {
+ 	background-color: #1f1f1f;
+ }
+ 
+.fs12{
+ font-size: 12px;
+}
+.fs15{
+ font-size: 0.9375rem;
+}
+.fw300{
+ font-weight: 300;
+}
+.fw500{
+ font-weight: 500;
+}
+
+.psize{
+   font-size: 48px;
+   font-family: 'Bell MT';
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  background: #1f1f1f;
+  padding:30px;
+}
+.footer > div:first-child {
+  flex:3;
+  text-align: center;
+  color: #fff;
+  font-family: 'Bell MT';
+}
+.footer > div:last-child {
+  flex:9;
+  color: #fff;
+}

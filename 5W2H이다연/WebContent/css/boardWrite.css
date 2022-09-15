@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body{
+		height: 100%;
+		
+	}
+	.main{
+		magin-bottom: 0%;
+	}
+	.content{
+		width: 1800px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+  		-webkit-appearance: none;
+  		margin: 0;
+	}
+	/* Firefox */
+	input[type=number] {
+  	-moz-appearance: textfield;
+	}
+
+	.four-picture{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.form-control:focus{
+		box-shadow: 0 0 0 0.25rem #ffc107 !important;
+	}
+
+	.img{
+		object-fit: cover;
+		margin-right: 60px;
+	}
+
+
+	@media (min-width: 576px){
+		.img{
+			height: 120px;
+			width: 120px;
+		}
+	}
+
+	@media (min-width: 992px){
+		.img{
+			height: 170px;
+			width: 170px;
+		}
+	}
+
+	@media (min-width: 1200px){
+		.img{
+			height: 210px;
+			width: 210px;
+		}
+	}
+
+	@media (min-width: 1400px){
+		.img{
+			height: 250px;
+			width: 250px;
+		}
+	}
+#My_bname{
+ font-family: 'Bell MT';
+  color: rgba(255,127,80, 0.7);
+ 	width: 450px;
+ 	font-size: 48px;
+ 	position: relative;
+	
+ }
